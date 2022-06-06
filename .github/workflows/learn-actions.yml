@@ -2,9 +2,8 @@ name: learn-actions
 on: [push]
 jobs:
   first-job:
-  runs-on: ubantu-latest
-  steps:
-    id: step1
-    run: echo "Hello World"
-    
+    runs-on: ubuntu-latest
+    steps:
+    - name: hello step
+      run: echo "Hello World"
   
