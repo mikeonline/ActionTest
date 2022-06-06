@@ -1,0 +1,10 @@
+name: learn-actions
+on: [push]
+jobs:
+  first-job:
+  runs-on: ubantu-latest
+  steps:
+    id: step1
+    run: echo "Hello World"
+    
+  
